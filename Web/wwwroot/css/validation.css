@@ -1,0 +1,30 @@
+﻿input:focus {
+    /*when the input is not required on page load*/
+    /*when the input is required on page load*/ }
+input:focus[aria-invalid='false'] {
+    border: 1px solid #1ab394 !important; }
+input:focus[data-val-required] {
+    border: 1px solid #ec4758 !important;
+    /*its required but its now valid*/ }
+input:focus[data-val-required][aria-invalid='false'] {
+    border: 1px solid #1ab394 !important; }
+
+select:focus {
+    /*when the input is not required on page load*/
+    /*when the input is required on page load*/ }
+select:focus[aria-invalid='false'] {
+    border: 1px solid #1ab394 !important; }
+select:focus[data-val-required] {
+    border: 1px solid #ec4758 !important;
+    /*its required but its now valid*/
+    /*its required but its now valid*/ }
+select:focus[data-val-required][aria-invalid='false'] {
+    border: 1px solid #1ab394 !important; }
+select:focus[data-val-required][aria-invalid='true'] {
+    border: 1px solid #ec4758 !important; }
+
+.green-text {
+    color: #1ab394; }
+
+.red-text {
+    color: #ec4758; }

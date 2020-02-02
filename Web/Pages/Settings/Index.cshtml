@@ -1,0 +1,35 @@
+﻿@page
+@model Web.Pages.Settings.IndexModel
+@{
+    ViewBag.Title = "Settings";
+}
+
+<partial name="Shared/_PageHeader" />
+
+<div class="wrapper wrapper-content animated fadeInRight ecommerce">
+    <div class="row">
+        <div class="col-12">
+            <div class="ibox">
+                <div class="ibox-title">
+                    <h5>System Settings</h5>
+                </div>
+                <div class="ibox-content">
+                    <form method="post">
+                        <!-- See here: https://stackoverflow.com/questions/48322431/what-is-the-tag-helper-equivalent-of-html-editorfor-->
+                        <!-- TODO: Replace this with a ViewComponent instead -->
+                        @Html.EditorFor(x => x.SystemSettings.EmailFromAddress)
+
+                        @*<input asp-for="SystemSettings.EmailFromAddress" />*@
+                        
+                        <div class="row m-t-md">
+                            <div class="col-12">
+                                @*<submit-button></submit-button>*@
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

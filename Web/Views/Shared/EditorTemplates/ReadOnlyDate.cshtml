@@ -1,0 +1,11 @@
+﻿@*@model DateTime?
+
+@Html.LabelFor(m => m, new { @class = "m-b-none" })
+@Html.DescriptionFor(m => m)
+@Html.InputGroupReadOnlyDateFor(m => m, new
+{
+    @class = "form-control col-md-12",
+    disabled = "disabled",
+    @readonly = "readonly",
+    title ="You cannot modify this date"
+})*@

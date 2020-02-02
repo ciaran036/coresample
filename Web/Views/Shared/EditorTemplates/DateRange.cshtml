@@ -1,0 +1,16 @@
+﻿@*@model Services.Models.DateRange
+
+<div class="col-md-12">
+    <div class="form-group">
+        @Html.LabelFor(m => m, new { @class = "m-b-none" })
+        @Html.DescriptionFor(m => m)
+        <div class="input-daterange input-group" style="width: 100%;">
+            @Html.TextBoxFor(x => x.From, new { @class = "form-control", @autocomplete = "off" })
+            <span class="input-group-addon">to</span>
+            @Html.TextBoxFor(x => x.To, new { @class = "form-control", @autocomplete = "off", @style = "border-right:0px;" })
+            <div class="input-group-addon validation-addon"><i class="fa validation"></i></div>
+        </div>
+        @Html.ValidationMessageFor(m => m.From, null, new { @class = "validation-message" })
+        @Html.ValidationMessageFor(m => m.To, null, new { @class = "validation-message" })
+    </div>
+</div>*@

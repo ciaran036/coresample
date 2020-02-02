@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Configurations\DocumentConfiguration.cs" />
+    <Compile Remove="Configurations\EmailAlertConfiguration.cs" />
+    <Compile Remove="Configurations\EmailAlertParameterConfiguration.cs" />
+    <Compile Remove="Configurations\EntityBaseConfiguration.cs" />
+    <Compile Remove="Configurations\RoleConfiguration.cs" />
+    <Compile Remove="Configurations\SettingsConfiguration.cs" />
+    <Compile Remove="Configurations\UserActionAuditConfiguration.cs" />
+    <Compile Remove="Configurations\UserConfiguration.cs" />
+    <Compile Remove="Configurations\UserRoleConfiguration.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.6.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="8.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+  </ItemGroup>
+
+</Project>

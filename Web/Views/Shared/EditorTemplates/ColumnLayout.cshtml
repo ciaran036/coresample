@@ -1,0 +1,43 @@
+﻿@model object
+@{
+    var singleColumnLayout = ViewData["SingleColumnLayout"] as bool?;
+    var properties = ViewData.ModelMetadata.Properties;
+}
+@if (singleColumnLayout == true)
+{
+    foreach (var prop in properties)
+    {
+        if (prop.TemplateHint == "Hidden")
+        {
+            @Html.Editor(prop.PropertyName)
+        }
+        else
+        {
+            <div class="col-md-12">
+                <div class="form-group">
+                    @Html.Editor(prop.PropertyName)
+                </div>
+            </div>
+        }
+    }
+}
+else
+{
+    foreach (var prop in properties)
+    {
+        if (prop.TemplateHint == "Hidden")
+        {
+            @Html.Editor(prop.PropertyName)
+        }
+        else
+        {
+            <div class="col-md-6">
+                <div class="col-md-12">
+                    <div class="form-group m-l-md">
+                        @Html.Editor(prop.PropertyName)
+                    </div>
+                </div>
+            </div>
+        }
+    }
+}

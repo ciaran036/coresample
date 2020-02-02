@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><vc:product-name></vc:product-name> @ViewData["Title"]</title>
+
+    @RenderSection("Styles", required: false)
+
+    <partial name="_FrameworkStyles" />
+</head>
+<body class="top-navigation">
+
+    <!-- See here: https://muban.chuma.cn/INSPINIA/2.9.2/Utils/Documentation/#layout_structure-->
+
+    <div id="wrapper">
+        <div id="page-wrapper" class="gray-bg">
+            <div class="">
+                <vc:Navigation></vc:Navigation>
+
+                @RenderBody()
+
+                <div class="footer"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <partial name="_FrameworkScripts" />
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

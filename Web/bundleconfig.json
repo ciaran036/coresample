@@ -1,0 +1,66 @@
+﻿// Configure bundling and minification for the project.
+// More info at https://go.microsoft.com/fwlink/?LinkId=808241
+// Inspina v2.9.3 demo: http://webapplayers.com/inspinia_admin-v2.9.3/package.html
+[
+  {
+    "outputFileName": "wwwroot/css/site.min.css",
+    // An array of relative input file paths. Globbing patterns supported
+    "inputFiles": [
+      "wwwroot/css/validation.css",
+      "wwwroot/lib/toastr/toastr.css",
+      "wwwroot/css/animate.css",
+      "wwwroot/lib/bootstrap-select/bootstrap_select.css",
+      "wwwroot/lib/Font-Awesome/css/all.css",
+      "wwwroot/lib/limonte-sweetalert2/sweetalert2.css",
+      "wwwroot/lib/dataPicker/datepicker3.css",
+      "wwwroot/lib/iCheck/custom.css",
+      "wwwroot/lib/dateRange/daterangepicker_bs3.css",
+      "wwwroot/lib/clockpicker/clockpicker.css",
+      "wwwroot/lib/inspinia/bootstrap_select.css",
+
+      /* Inspinia styles */
+      "wwwroot/lib/metisMenu/metisMenu.min.css",
+      "wwwroot/lib/inspinia/bootstrap.css",
+      "wwwroot/lib/inspinia/style.css",
+      "wwwroot/lib/inspinia/site.css",
+      "wwwroot/lib/inspinia/validation.css",
+      "wwwroot/lib/inspinia/bootstrap_select.css"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    }
+  },
+  {
+    "inputFiles": [
+      "wwwroot/lib/jquery/jquery.min.js",
+      "wwwroot/lib/jqueryui/jquery-ui.min.js",
+      "wwwroot/lib/jquery-validate-mvc/jquery_validate_mvc.js",
+      "wwwroot/js/site.js",
+      "wwwroot/js/global.js",
+      "wwwroot/js/validation.js",
+      "wwwroot/lib/toastr/toastr.js",
+      "wwwroot/lib/limonte-sweetalert2/sweetalert2.all.js",
+      "wwwroot/lib/dataPicker/bootstrap_datepicker.js",
+      "wwwroot/lib/iCheck/icheck.js",
+      "wwwroot/lib/dateRange/daterangepicker.js",
+      "wwwroot/lib/moment/moment.min.js",
+      "wwwroot/lib/inspinia/inspinia.js",
+      "wwwroot/lib/pace/pace.min.js",
+      "wwwroot/lib/metisMenu/metisMenu.min.js",
+      "wwwroot/lib/clockpicker/clockpicker.js",
+      "wwwroot/lib/bootstrap-tour/js/bootstrap-tour.js",
+      "wwwroot/lib/signalr/dist/browser/signalr.js",
+      "wwwroot/lib/object-fit-images/ofi.js",
+      "wwwroot/lib/jquery.touchswipe/jquery.touchSwipe.js"
+    ],
+    "outputFileName": "wwwroot/js/site.min.js",
+    // Optionally specify minification options
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    // Optinally generate .map file
+    "sourceMap": false
+  }
+]

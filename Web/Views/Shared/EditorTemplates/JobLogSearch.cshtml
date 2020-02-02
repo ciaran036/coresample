@@ -1,0 +1,39 @@
+﻿@*@model Services.Mappers.AdvancedSearch.JobLogSearch
+
+<div class="ibox border-bottom">
+    <div class="ibox-title adv-search">
+        <h5>Search</h5>
+        <div class="ibox-tools">
+            <a class="collapse-link">
+                <i class="fa fa-chevron-down"></i>
+            </a>
+        </div>
+    </div>
+    @Html.HiddenFor(m => m.Orderby)
+    @Html.HiddenFor(m => m.Page)
+    @Html.HiddenFor(m => m.PageSize)
+    @Html.HiddenFor(x => x.Descending)
+    <div class="ibox-content m-b-sm border-bottom" style="display: none;">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    @Html.FormGroupTextBoxFor(x => x.Filter)
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    @Html.FormGroupDropDownListFor(x => x.SelectedStatus, Model.LogStatuses)
+
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12">
+                <div class="form-group">
+                    <div class="pull-right">
+                        <button type="submit" class="btn btn-primary btn-advanced-search">Search</button>
+                        <button class="btn btn-clear-search btn-default">Clear</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>*@

@@ -1,0 +1,7 @@
+﻿@*@using Entities.Enums
+@using Services.Extensions
+@model int?
+@Html.LabelFor(m => m, new { @class = "m-b-none" })
+@Html.DescriptionFor(m => m)
+@Html.InputGroupLiveSelectFor(m => m, LookupExtensions.GetLookups(LookupTypeCode.Country, Model), new { @class = "country-id form-control", placeholder = "Select a county" })
+@Html.ValidationMessageFor(m => m, null, new { @class = "validation-message" })*@

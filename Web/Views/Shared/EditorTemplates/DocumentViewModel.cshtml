@@ -1,0 +1,15 @@
+﻿@*@model Services.ViewModels.DocumentViewModel
+
+@Html.LabelFor(m => m, new { @class = "m-b-none" })
+@Html.DescriptionFor(m => m)
+<div class="input-group">
+    <span class="input-group-addon">
+        <label class="fa fa-upload" for="my-file-selector" style="cursor: pointer; padding-top: 1px;" title="Click to select a file for upload">
+            <input id="my-file-selector" class="file-upload" type="file" style="display: none;" name="@Html.NameFor(x => x.File)"
+                   onchange="$('.upload-file-info').val(this.files[0].name)">
+        </label>
+    </span>
+    @Html.TextBoxFor(x => x.FullName, new { @class = "form-control upload-file-info", @readonly = "readonly", Value = "" })
+    @Helpers.ValidationIcon()
+</div>
+@Html.ValidationMessageFor(x => x, null, new { @class = "validation-message" })*@

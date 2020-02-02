@@ -1,0 +1,9 @@
+﻿@*@model string
+
+@Html.LabelFor(m => m, new { @class = "m-b-none" })
+@Html.DescriptionFor(m => m)
+    <div class="input-group">
+        @Html.TextArea("", Model, new { @class = "form-control", style = "resize:vertical;" })
+        @Helpers.ValidationIcon()
+    </div>
+@Html.ValidationMessageFor(m => m, null, new { @class = "validation-message" })*@

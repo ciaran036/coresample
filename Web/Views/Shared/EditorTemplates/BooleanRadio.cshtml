@@ -1,0 +1,33 @@
+﻿@model bool?
+
+@*@Html.LabelFor(m => m, new { @class = "m-b-none" })
+@Html.DescriptionFor(m => m)
+<div class="input-group m-t-sm">
+    @{
+        var isTrue = !Model.HasValue ? "false" : (Model.Value ? "checked" : "");
+        var isFalse = !Model.HasValue ? "false" : (!Model.Value ? "checked" : "");
+    }
+    <span style="position: relative; padding-right: 10px;">
+        @if (Model.HasValue)
+        {
+            @Html.RadioButtonFor(m => m, true, new { @class = "i-checks", @checked = isTrue })
+        }
+        else
+        {
+            @Html.RadioButtonFor(m => m, true, new { @class = "i-checks" })
+        }
+        Yes
+    </span>
+
+    <span style="position: relative; padding-right: 10px;">
+        @if (Model.HasValue && !Model.Value)
+        {
+            @Html.RadioButtonFor(m => m, false, new { @class = "i-checks", @checked = isFalse })
+        }
+        else
+        {
+            @Html.RadioButtonFor(m => m, false, new { @class = "i-checks" })
+        }
+        No
+    </span>
+</div>*@

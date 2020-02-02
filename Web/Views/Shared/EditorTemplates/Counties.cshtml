@@ -1,0 +1,6 @@
+﻿@*@using Services.Extensions
+@model int?
+@Html.LabelFor(m => m, new { @class = "m-b-none" })
+@Html.DescriptionFor(m => m)
+@Html.InputGroupLiveSelectFor(m => m, CountyExtensions.GetCounties(Model),new{@class="form-control county-id", placeholder="Select a county"})
+@Html.ValidationMessageFor(m => m, null, new { @class = "validation-message" })*@

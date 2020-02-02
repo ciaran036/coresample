@@ -1,0 +1,1043 @@
+﻿/*remove this CSS if left nav is being used*/
+.top-navigation .wrapper.wrapper-content {
+    padding: 25px 15px 25px 15px;
+}
+
+/*remove above CSS if left nav is being used*/
+.well {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.chat-discussion {
+    height: 600px;
+}
+
+.message-author {
+    color: #337ab7;
+}
+
+#chat-upload-icon {
+    cursor: pointer;
+}
+
+.minimized {
+    top: 283px;
+    position: relative;
+}
+
+.minimize-window {
+    cursor: pointer;
+}
+
+.small-chat-box {
+    background: #fff;
+    border: 1px solid #e7eaec;
+}
+
+#small-chat {
+    position: fixed;
+    bottom: 0px;
+    right: 5px;
+    z-index: 100;
+}
+
+#divMessage {
+    height: 203px;
+    padding: 0px;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+    .inputfile + label {
+        max-width: 80%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        cursor: pointer;
+        display: inline-block;
+        overflow: hidden;
+        padding: 0.625rem 1.25rem;
+    }
+
+.no-js .inputfile + label {
+    display: none;
+}
+
+.inputfile:focus + label,
+.inputfile.has-focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    margin-right: 0.25em;
+}
+
+.inputfile-1 + label {
+    color: #676a6c;
+    background-color: #fff;
+    border: 1px solid #e7eaec;
+    border-radius: 3px;
+}
+
+    .inputfile-1:focus + label,
+    .inputfile-1.has-focus + label,
+    .inputfile-1 + label:hover {
+        background-color: #fff;
+    }
+
+.rowActionMenu ul.dropdown-menu {
+    right: 2px;
+}
+
+.n-p-l {
+    padding-left: 0px;
+}
+
+.n-p-r {
+    padding-right: 0px;
+}
+
+.n-p {
+    padding: 0px;
+}
+
+#discussion {
+    padding: 0px;
+}
+
+.sidebar-container ul.nav-tabs li a {
+    border-right: 0px;
+}
+
+.pagination, .table {
+    margin: 0px;
+}
+
+.input-group .bootstrap-select .dropdown-toggle:focus {
+    outline: 0px !important;
+}
+
+.btn-default:active:hover, .btn-default.active:hover {
+    border: 1px solid #d2d2d2;
+}
+
+.open > .dropdown-toggle.btn-default:hover {
+    border: 1px solid #d2d2d2;
+}
+
+.btn-default:active:focus, .btn-default.active:focus {
+    border: 1px solid #d2d2d2;
+}
+
+.open > .dropdown-toggle.btn-default:focus {
+    border: 1px solid #d2d2d2;
+}
+
+.btn-default:active.focus, .btn-default.active.focus {
+    border: 1px solid #d2d2d2;
+}
+
+.open > .dropdown-toggle.btn-default.focus {
+    border: 1px solid #d2d2d2;
+}
+
+.date .input-group-addon:last-child {
+    padding: 5px 10px;
+}
+
+.top-navigation ul.nav.navbar-top-links li a.small-link {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+
+.wizard > .content > .body {
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    width: 100%;
+}
+
+    .wizard > .content > .body input {
+        border: 1px solid #e6e6e6;
+    }
+
+    .wizard > .content > .body label {
+        margin-bottom: 0px;
+    }
+
+input:not([type=checkbox]):not([type=radio]) {
+    /*-webkit-appearance: none;*/
+}
+
+.btn-default:active, .btn-default.active {
+    box-shadow: none;
+}
+
+.open .dropdown-toggle.btn-default {
+    box-shadow: none;
+}
+
+/* Move AdHocReporting styles to it's own file, shouldn't be in here */
+.ibox-content .eqjs-ep-panel {
+    background-color: #fff;
+}
+
+    .ibox-content .eqjs-ep-panel > div.eqjs-ep-entity {
+        width: 104%;
+    }
+
+.ibox-content .eqjs-ep-entity-node-label {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.ibox-content .eqjs-ep-entity-attr-label {
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.ibox-content .eqjs-qc-panel, .ibox-content .eqjs-qp-panel {
+    background-color: #fff;
+}
+
+.ibox-content .grid-panel {
+    font-size: 10px;
+}
+
+.ibox-content .eqjs-qp-predelement > a {
+    border-bottom: none;
+    display: inline-flexbox;
+}
+
+    .ibox-content .eqjs-qp-predelement > a:hover {
+        border-bottom: none;
+        display: inline-flexbox;
+    }
+
+.eqjs-menu-itemDiv {
+    font-size: 12px !important;
+}
+
+.eqjs-qp-row.active, .eqjs-qc-row.active, .eqjs-cb-row.active, .ui-sortable-helper, .eqjs-qp-row:hover, .eqjs-qc-row:hover {
+    background: #fff !important;
+}
+
+.ibox-content.adhoc table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.ibox-content .result-grid-header th {
+    background: #fff;
+    color: #1ab394;
+    font-weight: bolder !important;
+    font-size: 11px !important;
+    padding-left: 0px;
+}
+
+.ibox-content.adhoc table td {
+    padding: 5px;
+}
+
+.ibox-content.adhoc table tr {
+    border-bottom: 1px dashed #e4e4e4;
+}
+
+.ibox-content .eqjs-qc-header {
+    border-bottom: 1px solid #e7eaec;
+}
+
+.ibox-content .eqjs-addrow a {
+    border-bottom: none !important;
+}
+
+.eqjs-addrow > a:hover {
+    border-bottom: none !important;
+}
+
+.ibox-content .eqjs-qp-row-predicate-root {
+    font-weight: normal;
+}
+
+.ibox-content .eqjs-addrow a {
+    color: #676a6c;
+}
+
+.ibox #ResultExportButtons {
+    padding: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.ibox-content .eqjs-qc-columns.ui-sortable {
+    max-height: 108px !important;
+}
+
+.icon-text {
+    margin-right: 3px;
+}
+
+.tooltip-inner {
+    white-space: pre-wrap !important;
+}
+
+.calendar-key {
+    overflow: auto;
+}
+
+.clt-detail .ibox-title {
+    padding: 14px 15px 0px;
+}
+
+.clt-detail .nav-tabs {
+    border-bottom: none;
+}
+
+.count-info .label.label-transparent {
+    background-color: transparent !important;
+}
+
+.password.count-info .label.label-transparent {
+    right: 1px;
+}
+
+.bold-text {
+    font-weight: 600;
+}
+
+.fa-exclamation-circle.password-icon {
+    font-size: 13px;
+}
+
+.bttm-btn-container {
+    padding: 15px 0px 15px 0px;
+}
+
+#wrapper {
+    /*overflow-y: hidden;*/
+}
+
+.table tr td a, .table tr th a {
+    color: #1ab394;
+}
+
+/* Table row action menu style */
+.rowActionMenuButton {
+    border-radius: 0;
+    border-left: 1px solid #e7eaec;
+    border-right: 1px solid #e7eaec;
+    border-top: 0;
+    border-bottom: 0;
+    width: 45px;
+    padding: 9px 5px 8px 5px;
+}
+
+.rowActionMenu {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.pagination-total {
+    float: left;
+    width: 250px;
+    margin-top: 15px;
+    color: #909090;
+}
+
+.pagination {
+    margin-top: 15px;
+}
+
+.sortable {
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    padding: 0;
+}
+
+    .sortable li {
+        background: none repeat scroll 0 0 #f3f3f4;
+        border: 1px dashed #e7eaec;
+        color: inherit;
+        padding: 10px;
+        margin: 0px 15px 0px 15px;
+        border-radius: 3px;
+        cursor: pointer;
+        list-style: none;
+    }
+
+        .sortable li a.lookup-item {
+            width: 100%;
+            background-color: #ecf1f0;
+            border-bottom: 1px solid #eeeeee;
+            list-style: none;
+        }
+
+.ui-selectable-helper {
+    position: absolute;
+    z-index: 100;
+    border: 1px dotted black;
+}
+
+.i-checks label {
+    padding-left: 0px;
+}
+
+.validation-icon {
+    position: relative;
+    top: -25px;
+    left: 97%;
+    z-index: 99999;
+}
+
+.validation-icon-modal {
+    left: 92%;
+}
+
+.col-sm-10 .validation-icon, .col-lg-6 .validation-icon, .col-md-6 .validation-icon {
+    left: 95%;
+}
+
+.row .col-md-6 .validation-icon, .col-lg-4 .validation-icon, .col-md-4 .validation-icon {
+    left: 94%;
+}
+
+.col-lg-3 .validation-icon, .col-md-3 .validation-icon {
+    left: 88%;
+}
+
+.col-md-10 .validation-icon, .col-md-5 .col-sm-9 .validation-icon {
+    left: 94%;
+}
+
+.validation-icon-date {
+    position: relative;
+    top: -25px;
+    left: 95%;
+    z-index: 99999;
+}
+
+.fa.validation-icon.valid, .fa.ok {
+    color: #21b9bb !important;
+    z-index: 900;
+}
+
+.fa.validation-icon.invalid, .fa.notok {
+    color: #ec4758 !important;
+    z-index: 900;
+}
+
+.validation-message {
+    display: none;
+}
+
+.tooltip {
+    width: 150px;
+    padding: 5px !important;
+}
+
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 100% !important;
+}
+
+.non-btn button:hover, .non-btn .open > .dropdown-toggle.btn-default {
+    background-color: #fff !important;
+}
+
+.btn-default.active, .btn-default:active {
+    background-color: #fff !important;
+}
+
+.open > .dropdown-toggle.btn-default {
+    background-color: #fff !important;
+}
+
+.paged-list, .wizard > .content > .body ul.paged-list {
+    width: 100%;
+    min-height: 350px;
+    margin: 0;
+    padding: 0;
+    list-style: none !important;
+}
+
+    .paged-list li, .wizard .paged-list li {
+        padding: 7px;
+        background-color: #f3f3f4;
+        margin: 5px 0px 5px 0px;
+        cursor: pointer;
+    }
+
+        .paged-list li:hover, .wizard .paged-list li:hover {
+            background-color: #1ab394;
+        }
+
+        .paged-list li.highlight a, .wizard .paged-list li.highlight a, .paged-list li.highlight a:hover, .wizard .paged-list li.highlight a:hover {
+            color: #fff;
+        }
+
+        .paged-list li.highlight {
+            background-color: #1ab394 !important;
+        }
+
+        .wizard .paged-list li.highlight {
+            background-color: #1ab394 !important;
+        }
+
+    .wizard > .content > .body ul.paged-list.small-paged-list li.highlight, .wizard > .content > .body ul.paged-list li.highlight {
+        background-color: #1ab394 !important;
+    }
+
+    .paged-list li.highlight:hover {
+        background-color: #1ab394 !important;
+    }
+
+.wizard .paged-list li.highlight:hover {
+    background-color: #1ab394 !important;
+}
+
+.wizard > .content > .body ul.paged-list.small-paged-list li.highlight:hover, .wizard > .content > .body ul.paged-list li.highlight:hover {
+    background-color: #1ab394 !important;
+}
+
+.paged-list li a, .wizard .paged-list li a, .paged-list li a:hover, .wizard .paged-list li a:hover {
+    color: #737373;
+}
+
+.paged-list {
+    min-height: 200px;
+}
+
+.wizard > .content > .body ul.paged-list.small-paged-list {
+    min-height: 200px;
+}
+
+.wizard > .content > .body ul.paged-list li:hover {
+    background-color: #F9F9F9;
+}
+
+.wizard .paged-list li:hover {
+    background-color: #F9F9F9;
+}
+
+.wizard > .content > .body ul.paged-list li {
+    background-color: #fff;
+}
+
+ul.paged-list li:focus {
+    background-color: #fff !important;
+}
+
+.wizard-big-fullheight fieldset {
+    min-height: 580px;
+}
+
+.file-action-btn {
+    float: right;
+    padding-right: 5px;
+    font-size: 1.5em;
+}
+
+.role-wrapper .ibox .ibox-content {
+    min-height: 535px;
+}
+
+.special-requirement-wrapper .ibox .ibox-content {
+    min-height: 505px;
+}
+
+.maintenance-highlight {
+    background-color: #e2e2e2;
+}
+
+#roles, #projects {
+    min-height: 465px;
+}
+
+.remove-file-icon {
+    top: 5px;
+    position: absolute;
+    right: 5px;
+    color: #ec4758 !important;
+    cursor: pointer;
+}
+
+.header-btn-wrapper {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+}
+
+    .header-btn-wrapper .btn {
+        float: right;
+    }
+
+.reactivate-btn {
+    cursor: pointer;
+    color: #1ab394;
+}
+
+.middle-box h1 {
+    font-size: 100px;
+}
+
+.dropdown-messages li, .ellipsis.label-more {
+    cursor: pointer;
+}
+
+.tooltip {
+    position: fixed;
+}
+
+.paged-list, .wizard > .content > .body ul.paged-list.small-paged-list.family-list {
+    min-height: 105px;
+}
+
+.ibox-title.adv-search {
+    cursor: pointer;
+}
+
+.navbar-top-links .dropdown-messages {
+    width: 222px;
+}
+
+.error-middle-box {
+    max-width: 400px;
+    z-index: 100;
+    margin: 0 auto;
+    padding-top: 40px;
+    min-height: 694px;
+}
+
+/* Sweet Alert Styles */
+.sweet-alert .bootstrap-select button.bs-placeholder {
+    background-color: #fff;
+    font-size: 14px;
+    padding: 6px;
+}
+
+.swal2-popup {
+    font-size: 1.6rem !important;
+}
+
+#swal-2checkbox {
+    width: 30px;
+    height: 30px;
+}
+
+/* END Sweet Alert styles*/
+.warning-text {
+    color: #ed5565 !important;
+    font-weight: bold !important;
+}
+
+.info-text {
+    color: #1ab394 !important;
+    font-weight: bold !important;
+}
+
+.contact-container {
+    padding-top: 8px;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.table-responsive table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+/*IPHONE 5 CSS*/
+@media (max-width: 321px) {
+    .timeline-item .date.case {
+        width: 47px !important;
+    }
+
+    .col-lg-7.no-padding-mobile {
+        padding-left: 0px;
+    }
+
+    .tabs-container .tabs-left .panel-body {
+        width: 85%;
+        margin-left: 23%;
+    }
+
+    .article-title {
+        text-align: center;
+        margin: 40px 0 20px 0;
+    }
+
+    .mobile-timeline .slimScrollDiv {
+        width: 100% !important;
+    }
+
+    .maintenance-tabs .panel-body {
+        margin-left: 20% !important;
+    }
+
+    .wizard > .steps > ul > li {
+        width: 100%;
+        float: none;
+    }
+
+    .header-btn-wrapper .btn {
+        float: none;
+    }
+}
+
+/*IPHONE 6 CSS*/
+@media (max-width: 376px) and (min-width: 370px) {
+    .timeline-item .date.case {
+        width: 47px !important;
+    }
+
+    .col-lg-7.no-padding-mobile {
+        padding-left: 0px;
+    }
+
+    .tabs-container .tabs-left .panel-body {
+        width: 85%;
+        margin-left: 23%;
+    }
+
+    .article-title {
+        text-align: center;
+        margin: 40px 0 20px 0;
+    }
+
+    .wizard > .steps > ul > li {
+        width: 100%;
+        float: none;
+    }
+
+    .header-btn-wrapper .btn {
+        float: none;
+    }
+}
+
+/*IPHONE 6+ CSS*/
+@media (max-width: 415px) and (min-width: 400px) {
+    .timeline-item .date.case {
+        width: 47px !important;
+    }
+
+    .col-lg-7.no-padding-mobile {
+        padding-left: 0px;
+    }
+
+    .tabs-container .tabs-left .panel-body {
+        width: 85%;
+        margin-left: 23%;
+    }
+
+    .article-title {
+        text-align: center;
+        margin: 40px 0 20px 0;
+    }
+
+    .wizard > .steps > ul > li {
+        width: 100%;
+        float: none;
+    }
+
+    .header-btn-wrapper .btn {
+        float: none;
+    }
+}
+
+/*Ipad*/
+@media (max-width: 1204px) and (min-width: 768px) {
+    .header-btn-wrapper .btn {
+        float: none;
+    }
+}
+
+/*Laptop Intermediate*/
+@media (max-width: 1349px) and (min-width: 1200px) {
+    #dashboard .noti h5 {
+        font-size: 12px;
+    }
+
+    .timeline-item .date.case {
+        width: 47px !important;
+    }
+
+    .col-lg-7.no-padding-mobile {
+        padding-left: 0px;
+    }
+
+    .tabs-container .tabs-left .panel-body {
+        width: 85%;
+        margin-left: 23%;
+    }
+
+    .article-title {
+        text-align: center;
+        margin: 40px 0 20px 0;
+    }
+
+    .wizard > .steps > ul > li {
+        width: 100%;
+        float: none;
+    }
+
+    .header-btn-wrapper .btn {
+        float: none;
+    }
+}
+
+/** Footer Tweaking **/
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 220px;
+    left: -220px;
+    background-color: #293846;
+    color: #fff;
+    border: none;
+}
+
+/** Account Nav Link stuff **/
+.media-body a {
+    font-size: 12px !important;
+    color: #909090;
+    display: block;
+}
+
+ul.nav.navbar-top-links li a.small-link {
+    font-size: 12px !important;
+    font-weight: normal !important;
+}
+
+/** Logo Stuff **/
+a.logo-link {
+    margin: 0 0 0 -3px !important;
+    padding: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+}
+
+.login-logo {
+    position: relative;
+    bottom: 10px;
+    opacity: 0.6;
+}
+
+/** Small Datepicker CSS **/
+.input-group.date.col-md-12, .input-group.clockpicker.col-sm-12 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/** Small alignment issue with datepicker **/
+.date-seperator {
+    margin-left: -10px;
+}
+
+.datepicker-helptext {
+    clear: both;
+}
+
+.table-condensed tr th {
+    cursor: pointer;
+}
+
+/** Calendar Stuff **/
+/*.event-selected 
+{
+    background-color: #117D67;
+}*/
+.event-selected {
+    background-color: #423636 !important;
+    border-color: #423636 !important;
+}
+
+#commonactions li {
+    cursor: pointer;
+}
+
+.category-list li.horizontal-key {
+    display: inline-table;
+}
+
+    .category-list li.horizontal-key i {
+        margin-right: 7px;
+        margin-left: 10px;
+    }
+
+.tooltip-inner {
+    width: 500px;
+}
+
+.category-list li i.text-purple {
+    color: #7b368c;
+}
+
+.dropdown-menu > .active > a {
+    background-color: #1AB394;
+}
+
+    .dropdown-menu > .active > a:hover {
+        background-color: #1AB394;
+    }
+
+label.danger-element {
+    background-color: #EF5352;
+    color: #fff;
+}
+
+label.info-element {
+    background-color: #1c84c6;
+    color: #fff;
+}
+
+label.success-element {
+    background-color: #1ab394;
+    color: #fff;
+}
+
+.dashboard-adv-filter {
+    margin-bottom: 0px;
+    border-bottom: none !important;
+}
+
+.table-sort {
+    margin-left: 5px;
+}
+
+.row-no-margin {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Report Viewer */
+.red-text {
+    color: #ec4758;
+}
+
+.orange-text {
+    color: #F8AC59;
+}
+
+input:focus[aria-invalid='true'], textarea:focus[aria-invalid='true'], select:focus[aria-invalid='true'] {
+    border: 1px solid #ec4758 !important;
+}
+
+.clockpicker-popover {
+    z-index: 999999;
+}
+
+/** Print Stuff **/
+.print-html {
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.print-body {
+    height: auto !important;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.print-preview {
+    float: none !important;
+    margin: 0 auto;
+}
+
+.print-article-title {
+    margin-top: 30px;
+}
+
+.print-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2F4050;
+}
+
+.print-note-title {
+    margin-top: 20px;
+}
+
+.print-note-date {
+    margin-bottom: 20px;
+}
+
+.print-text {
+    text-align: left;
+    margin: 0px 20px 10px 20px;
+}
+
+#deputisation {
+    max-height: 500px;
+    overflow-y: scroll !important;
+}
+
+.navbar-top-links #deputisation.dropdown-messages {
+    min-width: 310px;
+}
+
+/* Useful when removing space between Bootstrap columns */
+.padding-0 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+@media (max-width: 991px) {
+    .chat-user-name {
+        padding: 0px;
+    }
+
+    .chat-users {
+        overflow-y: auto;
+        height: 150px;
+    }
+
+    .chat-discussion {
+        height: 300px;
+    }
+}
+
+/*Nav bar height and style fixes*/
+/*@media (min-width: 768px)
+{
+    #page-wrapper {
+        position: inherit;
+        margin: 0 0 0 220px;
+        min-height: 0px;
+    }
+}
+
+html 
+{
+   height:100%;
+}
+
+body 
+{
+    background-color: #f3f3f4;
+    height:100%;
+}
+
+.navbar-default 
+{
+    height:100%;
+    background-color:#2f4050;
+}*/

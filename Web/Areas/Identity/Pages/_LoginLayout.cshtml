@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title><vc:product-name></vc:product-name> @ViewData["Title"]</title>
+
+    <partial name="_FrameworkStyles" />
+
+</head>
+
+<body class="gray-bg">
+
+    @RenderBody()
+
+    <!--TODO: Toast notifications-->
+    @*@{
+            string displayMessage = TempData["DisplayMessage"] as string;
+            string displayClass = TempData["DisplayClass"] as string;
+        }
+        @if (displayMessage != null)
+        {
+            <div id="toastr-notification" class="hidden" data-msg="@Html.Raw(displayMessage)" data-type="@displayClass"></div>
+        }*@
+
+    <partial name="_FrameworkScripts" />
+
+    @if (IsSectionDefined("Scripts"))
+    {
+        @RenderSection("Scripts", required: false)
+    }
+
+    <partial name="_LoginFooter" />
+</body>
+</html>

@@ -1,0 +1,16 @@
+﻿@*@model Services.Models.DecimalRange
+
+<div class="col-md-12">
+    <div class="form-group decimal-range">
+        @Html.LabelFor(m => m, new { @class = "m-b-none" })
+        @Html.DescriptionFor(m => m)
+        <div class="input-group" style="width: 100%;">
+            @Html.TextBoxFor(x => x.Lower, new { @class = "form-control", @autocomplete = "nope", type = "number", @style = "border-right:0px;" })
+            <span class="input-group-addon" style="background-color: #eeeeee;">to</span>
+            @Html.TextBoxFor(x => x.Upper, new { @class = "form-control", @autocomplete = "nope", type = "number", @style = "border-left:0px;" })
+            <div class="input-group-addon validation-addon"><i class="fa validation"></i></div>
+        </div>
+        @Html.ValidationMessageFor(m => m.Lower, null, new { @class = "validation-message" })
+        @Html.ValidationMessageFor(m => m.Upper, null, new { @class = "validation-message" })
+    </div>
+</div>*@

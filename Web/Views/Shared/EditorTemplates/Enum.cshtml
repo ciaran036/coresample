@@ -1,0 +1,8 @@
+﻿@*@model Enum
+@Html.LabelFor(m => m, new { @class = "m-b-none" })
+@Html.DescriptionFor(m => m)
+<div class="input-group">
+    @Html.EnumDropDownListFor(m => m, new { @class = "form-control" })
+    @Helpers.ValidationIcon()
+    @Html.ValidationMessageFor(m => m, null, new { @class = "validation-message" })
+</div>*@

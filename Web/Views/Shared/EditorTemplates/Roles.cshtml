@@ -1,0 +1,6 @@
+﻿@*@using Services.Extensions
+@model List<string>
+
+@Html.LabelFor(m => m, new { @class = "m-b-none" })
+@Html.DescriptionFor(m => m)
+@Html.InputGroupMultiSelectFor(m => m, RoleExtensions.GetRoles(), new { placeholder = "Select one or more roles" })*@

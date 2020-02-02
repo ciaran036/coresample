@@ -1,0 +1,7 @@
+﻿@*@using Services.Extensions
+@model int?
+
+@Html.LabelFor(m => m, new { @class = "m-b-none" })
+@Html.DescriptionFor(m => m)
+@Html.InputGroupDropDownListFor(m => m, LookupExtensions.GetTitles(Model), new { @class = "form-control", placeholder = "Select a title"})
+@Html.ValidationMessageFor(m => m, null, new { @class = "validation-message" })*@

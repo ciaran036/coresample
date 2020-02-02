@@ -1,0 +1,41 @@
+﻿<environment include="Development">
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/jqueryui/jquery-ui.min.js"></script>
+    <script src="~/lib/jquery-validate-mvc/jquery_validate_mvc.js"></script>
+    <script src="~/lib/twitter-bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/js/site.js"></script>
+    <script src="~/js/global.js"></script>
+    <script src="~/js/validation.js"></script>
+    <script src="~/lib/bootstrap-select/bootstrap_select.js"></script>
+    <script src="~/lib/toastr/toastr.js"></script>
+    <script src="~/lib/limonte-sweetalert2/sweetalert2.js"></script>
+    <script src="~/lib/dataPicker/bootstrap_datepicker.js"></script>
+    <script src="~/lib/iCheck/icheck.js"></script>
+    <script src="~/lib/dateRange/daterangepicker.js"></script>
+    <script src="~/lib/moment/moment.min.js"></script>
+    <script src="~/lib/inspinia/inspinia.js"></script>
+    <script src="~/lib/pace/pace.min.js"></script>
+    <script src="~/lib/metisMenu/metisMenu.min.js"></script>
+    <script src="~/lib/clockpicker/clockpicker.js"></script>
+    <script src="~/lib/jQuery-slimScroll/jquery.slimscroll.js"></script>
+    <script src="~/lib/bootstrap-tour/js/bootstrap-tour.js"></script>
+    <script src="~/lib/signalr/dist/browser/signalr.js"></script>
+    <script src="~/lib/object-fit-images/ofi.js"></script>
+    <script src="~/lib/jquery.touchswipe/jquery.touchSwipe.js"></script>
+
+</environment>
+<environment exclude="Development">
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.3.min.js"
+            asp-fallback-src="~/lib/jquery/jquery.min.js"
+            asp-fallback-test="window.jQuery"
+            crossorigin="anonymous"
+            integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+    </script>
+    <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+            asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+            asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+            crossorigin="anonymous"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+    </script>
+    <script src="~/js/site.min.js" asp-append-version="true"></script>
+</environment>
